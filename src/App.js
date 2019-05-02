@@ -67,7 +67,7 @@ class App extends Component {
       this.setState({
         viewed: joined
       })
-      console.log('Oh shit you clicked - ', userName, '|   Array content - ', this.state.viewed);
+      console.log('Oh you clicked - ', userName, '|   Array content - ', this.state.viewed);
       return;
     }
   }
